@@ -1,0 +1,58 @@
+.order-detail .order-num>span{
+	font-size: 1.4rem;
+	color: #666;
+}
+.body{
+background-color: white;
+}
+.order-detail{
+	border:none;
+}
+.commit-word{
+	font-size: 1.4rem;
+	color: #666;
+	line-height: 38px;
+	display: inline-block;
+	height: 38px;
+}
+.your-commit{
+	height: 38px;
+	width: 100%;
+}
+.commit-star{
+	display: inline-block;
+	width: 22px;
+	height: 38px;
+	float: right;
+}
+.commit-star{
+	background:url(../img/star2.png) no-repeat;
+	background-size: 16px 15px;
+	background-position: center center;
+}
+.star-active{
+	background:url(../img/star1.png) no-repeat;
+	background-size: 16px 15px;
+	background-position: center center;	
+}
+.commit-words{
+	width: 100%;
+	height: 90px;
+	background-color: #f2f2f2;
+	border:none;
+	line-height: 34px;
+	font-size: 1.4rem;
+	color: #333;
+	padding: 0 2%;
+	box-sizing: border-box;
+	outline: none;
+	vertical-align: middle;
+
+}
+#confirm{
+	margin-top: 235px;
+}
+.goods-standard{
+	font-size: 1.3rem;
+	color: #757575;
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>用品详情</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/tejia.css">
+<link rel="stylesheet" type="text/css" href="css/jiajuxq.css">
+<link rel="stylesheet" type="text/css" href="css/shipingxq.css">
+<link rel="stylesheet" type="text/css" href="css/yongpingxq.css">
+<body class="body">
+<div class="mengban"></div>
+<div class="guige">
+	<img src="img/shiping3.png">
+	<div class="js">
+		<p>薯条点心面休闲零食五味园&nbsp&nbsp小包装500g</p>
+		<span class="xianjia" id="xianjia"> ￥ 11.5</span><span>原价:</span><span>￥12.8</span>
+	</div>
+	<img src="img/x.png" class="x">
+	<div>规格</div>
+	<div class="gg">
+		<span class="six active2">600g</span>
+		<span class="eight">800g</span>
+	</div>
+	<div>数量</div>
+	<div class="xz">
+		<img src="img/jian.png" class="jian">
+		<span class="sl">1</span>
+	    <img src="img/jia.png" class="jia">
+	</div>
+	<div class="an">确认</div>
+</div>
+<div id="fenxiang">
+	<p>分享到</p>
+	<img src="img/weixin.png">
+	<img src="img/pengyouquan.png">
+	<img src="img/weibo.png">
+	<span>取&nbsp&nbsp&nbsp消</span>
+</div>
+<div class="mengcheng"></div>
+<img src="img/chongzhi.png" class="chongzhi">
+<img src="img/icon4.png" class="fanhui">
+<img src="img/shouchang.png" class="shouchang">
+<img src="img/fenxiang.png" class="fenxiang">
+<img src="img/yongping3.png" class="shouji">
+
+
+<div class="jieshao">
+<div class="up">
+	<p>舒克牙膏清爽清火防蛀&nbsp&nbsp超值4支装</p>
+	<span class="xianjia" id="xianjia"> ￥ 11.5</span><span>原价:</span><span>￥12.8</span><span>销量: 1235</span>
+</div>
+<div class="down">
+	<span>限时:&nbsp&nbsp&nbsp2天23分02秒</span><span>限量:120件</span>
+</div>
+</div>
+<div class="fenge"></div>
+<div class="xiangqing">
+<div class="xuanxiang clearfix">
+	<span class="active">商品详情</span>
+	<span>用户评价</span>
+</div>
+<div class="neirong1">
+<img src="img/yongping4.png" class="yp">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+</div>
+<div class="neirong2">
+<span>小球</span>
+<img src="img/1.png" class="img1 img0">
+<img src="img/1.png" class="img1">
+<img src="img/1.png" class="img1">
+<img src="img/1.png" class="img1">
+<img src="img/1.png" class="img1">
+<span>2015-10-05</span>
+<p>好用，喜欢。</p>
+
+</div>
+	
+</div>
+<footer class="clearfix">
+<img src="img/gouwuche.png" class="img1">
+<span class="img4">2</span>
+<img src="img/gwc.png" class="img img2">
+<img src="img/goumai.png" class="img img3">
+</footer>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/touch-0.2.14.min.js"></script>
+<script type="text/javascript" src="js/jquery.swipe.js"></script>
+<script type="text/javascript">
+$(function(){
+	$(".xuanxiang span").bind("click",function(){
+		var index = $(this).index();
+		$(".xiangqing>div").eq(1).hide();
+		$(".xiangqing>div").eq(2).hide();
+		$(".xiangqing>div").eq(index + 1).show();
+		$(".xuanxiang>span").eq(index).addClass("active").siblings().removeClass("active");
+
+        
+
+	})
+	$(".fanhui").on("click",function(){
+		window.location.href = "yongping.html"
+	})
+
+	$(".fenxiang").on("click",function(){
+		$(".mengban").show();
+		$("#fenxiang").show();
+		  $(window).scroll(function(){
+	        $(this).scrollTop(0);
+	    });
+
+	})
+	$("#fenxiang span").on("click",function(){
+		$(".mengban").hide();
+		$("#fenxiang").hide();
+		$(window).unbind ('scroll');
+     
+  	
+	})
+	var m = 0;
+	$(".img2").bind("click",function(){
+		$(".mengban").show();
+		$(".guige").show();
+		$(window).scroll(function(){
+	        $(this).scrollTop(0);
+	    });
+		$(".x").on("click",function(){
+				$(".mengban").hide();
+		        $(".guige").hide();	
+		        $(window).unbind ('scroll');
+		})
+		$(".an").on("click",function(){
+				$(".mengban").hide();
+		        $(".guige").hide();	
+		        $(window).unbind ('scroll');
+		})
+		$(".gg span").on("click",function(){
+			$(this).addClass("active2").siblings().removeClass("active2");
+		})
+		$(".jian").on("click",function(){
+		    m = $(".sl").html();
+			m--;
+			if(m < 0){
+				m = 0;
+			}
+			$(".sl").html(m);
+		})
+		$(".jia").on("click",function(){
+			var m = $(".sl").html();
+			m++;
+			$(".sl").html(m);
+		})
+
+	})
+	$(".img3").bind("click",function(){
+		$(".chongzhi").show();
+	    $(".mengban").show();
+	    $(window).scroll(function(){
+	        $(this).scrollTop(0);
+	    });
+	    $(document).on("click",function(e){
+	    	target = e.target;
+	    	// alert(target.className);
+	    	// alert(target.className == "img img3");
+	    	if((target.className != 'img img3')&&(target.className != 'chongzhi')){
+				$(".chongzhi").hide();
+			    $(".mengban").hide();
+			    $(window).unbind ('scroll');
+	    	}
+	    	else if((target.className == 'chongzhi')){
+	    		window.location.href = "dingdanxiangqing.html";
+	    	}
+
+	    })
+	})
+
+
+})
+</script>
+	
+</script>
+</body>
+</html>

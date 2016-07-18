@@ -1,0 +1,93 @@
+.body{
+	background-color: white;
+	position: relative;
+}
+.goods-list{
+	width: 100%;
+}
+.goods{
+	height: 93px;
+	width:100%;
+	border-bottom:1px solid #dbdbdb;
+
+}
+.goods div{
+	height: 100%;
+	display: inline-block;
+}
+.goods-icon{
+	width: 14%;
+	background:url(../img/gou1.png) no-repeat;
+	background-size: 17px 17px;
+	background-position: center center;
+}
+.goods>div:nth-of-type(2){
+	width: 25%;
+	background:url(../img/goodIcon.png) no-repeat;
+	background-size: 73px 73px;
+	background-position: center center;
+}
+.goods>div:nth-of-type(3){
+	width: 46%;
+	vertical-align: top;
+
+}
+.goods-name{
+	font-size: 1.5rem;
+	color: #1a1a1a;
+	line-height: 38px;
+}
+.goods-price{
+	font-size: 1.3rem;
+	color: #de0000;
+}
+.goods-active{
+	background:url(../img/gouxuan.png) no-repeat;
+	background-size: 17px 17px;
+	background-position: center center;	
+}
+footer{
+	height: 55px;
+	width: 100%;
+	background-color: #f2f2f2;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+footer div{
+	height: 55px;
+	display: inline-block;
+}
+footer>div:nth-of-type(1){
+	width: 14%;
+	background:url(../img/gou1.png) no-repeat;
+	background-size: 17px 17px;
+	background-position: center center;
+	vertical-align: top;
+}
+footer>div:nth-of-type(2){
+	width: 25%;
+	line-height: 55px;
+	font-size: 1.6rem;
+	color: #343434;
+}
+footer>div:nth-of-type(3){
+	width: 55%;
+	vertical-align: top;
+
+}
+.del-button{
+	width: 50%;
+	height: 33px;
+	line-height: 33px;
+	margin-top: 11px;
+	float: right;
+	text-align: center;
+	border-radius: 3px;
+	background-color: #ee4147;
+	color: white;
+	display: inline-block;
+}
+#edit{
+	font-size: 1.6rem;
+}

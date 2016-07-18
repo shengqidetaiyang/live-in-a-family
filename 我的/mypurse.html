@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>我的钱包</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/jibenzhiliao.css">
+<link rel="stylesheet" type="text/css" href="css/name.css">
+<link rel="stylesheet" type="text/css" href="css/contact.css">
+<link rel="stylesheet" type="text/css" href="css/vipDetails.css">
+<link rel="stylesheet" type="text/css" href="css/mypurse.css">
+
+<body class="body">
+<header class="header">
+<img src="img/icon4.png">
+<span class="become-vip">我的钱包</span>
+<span class="edit" id="edit">账单</span>
+</header>
+<span class="mypurse-icon"></span>	
+<p class="money-alone">我的余额</p>
+<p class="money-num">&yen88.50</p>
+<div class="type-select">
+	<div>
+		<div></div>
+		<span>支付宝</span>
+		<span class="choice gou-active"></span>	
+	</div>
+
+	<div>
+	    <div></div>
+		<span>微信</span>
+		<span class="choice"></span>
+	</div>
+</div>
+<span class="confirm">充&nbsp&nbsp值</span>
+
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+$(".header img").on("click",function(){
+	window.location.href = "huiyuan.html"
+})
+$(".edit").on("click",function(){
+	window.location.href = "bill.html"
+})
+$(".choice").bind("click",function(){
+	$(".choice").removeClass("gou-active");
+    $(this).addClass("gou-active");
+})
+$(".confirm").on("click",function(){
+	window.location.href = "recharge.html"
+})
+
+
+})
+
+</script>
+	
+</script>
+</body>
+</html>

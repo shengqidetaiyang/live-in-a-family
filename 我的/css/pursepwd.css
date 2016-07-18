@@ -1,0 +1,31 @@
+.new-pwd{
+	margin-top: 21px;
+}
+.tel-num{
+	margin-top: 9px;
+}
+#confirm-code{
+	width: 35%;
+	margin-right: 40%;
+}
+.confirm-code{
+	width: 30%;
+	top: 4px;
+	right: 5%;
+	float: right;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	background-color: #26c08a;
+	font-size: 1.5rem;
+	color: white;
+	display: inline-block;
+	position: absolute;
+	border-radius: 4px;
+}
+.confirm-pwd{
+	position: relative;
+}
+.confirm{
+	margin-top: 65%;
+}

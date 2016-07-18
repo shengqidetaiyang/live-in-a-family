@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>忘记密码</title>
+</head>
+
+
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/comm.css">
+<link rel="stylesheet" type="text/css" href="css/dingwei.css">
+<link rel="stylesheet" type="text/css" href="css/kefu.css">
+<link rel="stylesheet" type="text/css" href="css/denglu.css">
+<link rel="stylesheet" type="text/css" href="css/zhuce.css">
+<link rel="stylesheet" type="text/css" href="css/wangji.css">	
+<body class="body">
+<header class="header clearfix">
+<img src="img/icon4.png" class="header1">
+<span class="city" >忘记密码</span>
+</header>
+<div class="lr">
+	<input type="text" id="zh" placeholder="手机号"></input>
+	<input type="text" id="ma" placeholder="验证码" ></input>
+	<input type="text" id="tx" readonly="readonly" value="57s后可重发"></input>
+<div class="sz">
+	<input class="sr" placeholder="请设置密码"></input>
+	<div class="fenge"></div>
+	<input class="qr" placeholder="请再次确认密码"></input>
+</div>
+<span class="tj">确&nbsp&nbsp认</span>
+
+
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+	$(".header img").on("click",function(){
+		window.location.href = "denglu.html"
+	})
+</script>
+
+
+</body>
+</html>

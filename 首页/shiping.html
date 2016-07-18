@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>生活食品</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/shouye.css">
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/swipe.css">
+<link rel="stylesheet" type="text/css" href="css/comm.css">
+<link rel="stylesheet" type="text/css" href="css/dingwei.css">
+<link rel="stylesheet" type="text/css" href="css/shenghuo.css">
+<link rel="stylesheet" type="text/css" href="css/jiaju.css">
+<link rel="stylesheet" type="text/css" href="css/shiping.css">
+<body class="body">
+<header class="header clearfix">
+<img src="img/icon4.png" class="header1">
+<span class="city">生活食品</span>
+</header>
+
+<!-- 大图滚动 -->
+<div class="wrap guding">
+	<div class="inner">
+	<img src="img/shiping1.png">
+	<img src="img/shiping2.png">
+	<img src="img/banner3.jpg">
+	<img src="img/banner4.jpg">		
+	</div>
+    <p class="button">
+	<span class="Span active"></span>
+	<span class="Span "></span>
+	<span class="Span "></span>
+	<span class="Span "></span>
+</p>
+</div>
+<div class="content_dichan clearfix">
+	<div class="left_dichan" id="left_dichan">
+		<p class="fenlei active1">传统糕点</p>
+		<p class="fenlei">膨化食品</p>
+		<p class="fenlei">无糖食品</p>
+		<p class="fenlei">休闲食品</p>
+		<p class="fenlei">燕麦食品</p>
+		<p class="fenlei">坚果炒货</p>
+
+	</div>
+	<div class="right_dichan">
+     <div class="clearfix">
+     	<img src="img/shiping3.png" class="xinhedan">
+     	<div id="jieshao">
+     	<p id="p1">沃之沃 多功能收纳盒内衣盒六件套</p>
+          <span>￥11.5</span>
+          <span>原价：</span>
+          <span>￥12.8</span>
+     	</div>
+     </div>
+     <div class="clearfix">
+          <img src="img/shiping3.png" class="xinhedan">
+          <div id="jieshao">
+          <p id="p1">薯条点心面休闲零食五味园 小包装500g</p>
+          <span>￥11.5</span>
+          <span>原价：</span>
+          <span>￥12.8</span>
+          </div>
+     </div>
+     <div class="clearfix">
+          <img src="img/shiping3.png" class="xinhedan">
+          <div id="jieshao">
+          <p id="p1">薯条点心面休闲零食五味园 小包装500g</p>
+          <span>￥11.5</span>
+          <span>原价：</span>
+          <span>￥12.8</span>
+          </div>
+     </div>
+     <div class="clearfix">
+          <img src="img/shiping3.png" class="xinhedan">
+          <div id="jieshao">
+          <p id="p1">薯条点心面休闲零食五味园 小包装500g</p>
+          <span>￥11.5</span>
+          <span>原价：</span>
+          <span>￥12.8</span>
+          </div>
+     </div>
+     <div class="clearfix">
+          <img src="img/shiping3.png" class="xinhedan">
+          <div id="jieshao">
+          <p id="p1">沃之沃 多功能收纳盒内衣盒六件套</p>
+          <span>￥11.5</span>
+          <span>原价：</span>
+          <span>￥12.8</span>
+          </div>
+     </div>
+
+
+
+	</div>
+</div>
+
+
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/touch-0.2.14.min.js"></script>
+<script type="text/javascript" src="js/jquery.swipe.js"></script>
+<script type="text/javascript">
+$("wrap").swiper({
+	autoplay: true,
+	animate: true
+})	
+$(".left_dichan>p").on("click",function(){
+	$(this).addClass("active1").siblings().removeClass("active1");
+})
+$(".header img").on("click",function(){
+	window.location.href = "shouye.html"
+})
+$(".right_dichan>div>img").on("click",function(){
+	window.location.href = "shipingxq.html"
+})
+$("#p1").on("click",function(){
+	window.location.href = "shipingxq.html"
+})
+
+
+</script>
+	
+</script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.order-infor p:nth-of-type(7){
+	font-size: 1.4rem;
+	color: #333;
+	line-height: 22px;
+	padding-bottom: 62px;
+}
+.order-infor p:nth-of-type(6){
+	padding-bottom: 0;
+}

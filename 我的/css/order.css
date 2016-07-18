@@ -1,0 +1,155 @@
+.top-nav{
+	height: 45px;
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid #dbdbdb;
+}
+.top-nav span{
+	width: 17%;
+	height: 45px;
+	line-height: 45px;
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 1.5rem;
+	color: #333;
+	margin-left: 2%;
+}
+.top-nav span:nth-of-type(1){
+	margin-left: 1%;
+}
+.nav-active{
+	border-bottom: 2px solid #f29004;
+}
+.fenge{
+	width: 100%;
+	height: 10px;
+	border-bottom: 1px solid #dbdbdb;
+	background-color: #f2f2f2;
+}
+.my-order,.order-detail{
+	width: 100%;
+	background-color: white;
+}
+.my-order{
+	/*border-bottom: 1px solid #dbdbdb;*/
+}
+.order-detail{
+	box-sizing: border-box;
+	padding: 0 3%;
+	border-bottom: 1px solid #dbdbdb;
+}
+.order-num{
+	width: 100%;
+	height: 37px;
+}
+.order-num>span{
+	display: inline-block;
+	line-height: 37px;
+	font-size: 1.4rem;
+}
+.order-num>span:nth-of-type(1){
+	float: left;
+	color: #333;
+
+}
+.order-num>span:nth-of-type(2){
+	float: right;
+	color: #f29004;
+}
+.order-information{
+	height: 93px;
+	width: 100%;
+	border-top:1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+}
+.order-sum{
+	height: 42px;
+	width: 100%;
+}
+.order-sum>span{
+	display: inline-block;
+	height: 42px;
+	line-height: 42px;
+	font-size: 1.4rem;
+	color:#666;
+}
+.order-sum span:nth-of-type(1){
+	margin-right: 1%;
+}
+.order-sum span:nth-of-type(3){
+	width: 83px;
+	height: 30px;
+	border:1px solid #999;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 1.5rem;
+	color: #666;
+	margin-left: 20%;
+}
+.order-sum span:nth-of-type(4){
+	width: 83px;
+	height: 30px;
+	border:1px solid #f29004;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 1.5rem;
+	color: #f29004;
+	margin-left: 5%;
+}
+.order-information{
+	padding-top: 10px;
+	box-sizing: border-box;
+	position: relative;
+}
+.order-information img{
+	width: 70px;
+	border:1px solid #dbdbdb;
+	vertical-align: top;
+}
+.goods-name{
+	font-size: 1.5rem;
+	color: #1a1a1a;
+	line-height: 20px;
+}
+.goods-infor{
+	display: inline-block;
+}
+.goods-price{
+	font-size: 1.3rem;
+	color: #de0000;
+	line-height: 30px;
+}
+.goods-num{
+	display: inline-block;
+	font-size: 1.5rem;
+	color: #404040;
+	position: absolute;
+	right:0;
+	top: 64px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

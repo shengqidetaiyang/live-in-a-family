@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>搜索</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/comm.css">
+<link rel="stylesheet" type="text/css" href="css/dingwei.css">
+<link rel="stylesheet" type="text/css" href="css/sousuo.css">
+<body class="body">
+<header class="header clearfix">
+<img src="img/icon4.png" class="header1">
+<span class="city" id="sousuo">搜索</span>
+</header>
+<div class="neirong">
+<input class="shuru" placeholder="输入关键字/商品名称"></input>	
+<img src="img/sousuo2.png" class="sousuo">
+<p class="remen">热门搜索</p>
+<span>小跨包</span>
+<span>皮带</span>
+<span>小挎包</span>
+<span>双肩包</span>
+<span>小挎包</span>
+<span>皮带</span>
+<span>小挎包</span>
+<span>皮带</span>
+</div>
+
+
+
+<footer class="clearfix">
+	<a href="###"><div class="footer1"></div></a>
+	<a href="###"><div class="footer2"></div></a>
+	<a href="###"><div class="footer3"></div></a>
+	<a href="###"><div class="footer4"></div></a>
+	<a href="###"><div class="footer5"></div></a>
+</footer>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+	$(".header img").on("click",function(){
+		window.location.href = "shouye.html";
+	})
+	$(".neirong img").on("click",function(){
+		if($(".shuru").val() == "坚果"){
+		window.location.href = "jieguo.html";	
+		}
+		else{
+			window.location.href = "noresult.html"
+		}
+		
+	})
+</script>
+
+
+</body>
+</html>

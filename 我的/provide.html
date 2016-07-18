@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>我能供应</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/jibenzhiliao.css">
+<link rel="stylesheet" type="text/css" href="css/name.css">
+<link rel="stylesheet" type="text/css" href="css/provide.css">
+
+<body class="body">
+<header class="header">
+<img src="img/icon4.png">
+<span>我能供应</span>
+</header>
+<div class="profession">
+	<span>行业类型：</span>
+	<input></input>
+</div>
+<div class="can-provide">
+	<span>我能供应：</span>
+	<input></input>
+</div>
+<div class="describe">
+<span>描述</span>
+	<textarea></textarea>
+</div>
+<span class="get-photo"> 图片:</span>
+<div class="photo-box">	
+</div>
+<input type="file" id="get-photo"></input>
+<span class="confirm">确&nbsp&nbsp认</span>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+$(".header img").on("click",function(){
+	window.location.href = "jibenzhiliao.html"
+})
+$(".photo-box").on("click",function(){
+	$("#get-photo").trigger("click");
+})
+
+
+})
+
+</script>
+	
+</script>
+</body>
+</html>

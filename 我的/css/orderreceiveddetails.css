@@ -1,0 +1,12 @@
+.order-infor p:nth-of-type(5){
+	font-size: 1.4rem;
+	color: #333;
+	line-height: 22px;
+	padding-bottom: 62px;
+}
+.order-infor p:nth-of-type(4){
+	padding-bottom: 0;
+}
+.confirm{
+	margin-top: 20px;
+}

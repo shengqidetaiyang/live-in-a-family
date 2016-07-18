@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>收货地址</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/jibenzhiliao.css">
+<link rel="stylesheet" type="text/css" href="css/getadress.css">
+
+<body class="body">
+<header class="header">
+<img src="img/icon4.png">
+<span>收货地址</span>
+</header>
+<ul class="your-adress">
+	<li class="adress clearfix" >
+		<div class="adress-details">
+			<p>刘晓心 13562021254</p>
+			<span class="default active">[默认]</span><span>广州市天河区东圃时代TIT广场</span>
+		</div>
+		<div class="adress-icon"></div>
+	</li>
+	<div class="fenge"></div>
+	<li class="adress clearfix">
+		<div class="adress-details">
+			<p>刘晓心 13562021254</p>
+			<span class="default">[默认]</span><span>广州市天河区东圃时代TIT广场</span>
+		</div>
+		<div class="adress-icon"></div>
+	</li>
+</ul>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+$(".header img").on("click",function(){
+	window.location.href = "huiyuan.html"
+})
+$(".adress-icon").on("click",function(){
+	window.location.href = "adressedit.html"
+})
+
+
+})
+
+</script>
+	
+</script>
+</body>
+</html>

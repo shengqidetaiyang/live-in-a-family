@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>商城首页</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/shouye.css">
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/swipe.css">
+<link rel="stylesheet" type="text/css" href="css/comm.css">
+<link rel="stylesheet" type="text/css" href="css/dingwei.css">
+<link rel="stylesheet" type="text/css" href="css/shenghuo.css">
+<body class="body">
+<header class="header clearfix">
+<img src="img/icon4.png" class="header1">
+<span class="city">商家信息</span>
+</header>
+
+<!-- 大图滚动 -->
+<div class="wrap guding">
+	<div class="inner">
+	<img src="img/banner1.jpg">
+	<img src="img/banner2.jpg">
+	<img src="img/banner3.jpg">
+	<img src="img/banner4.jpg">		
+	</div>
+    <p class="button">
+	<span class="Span active"></span>
+	<span class="Span "></span>
+	<span class="Span "></span>
+	<span class="Span "></span>
+</p>
+</div>
+<div class="content_dichan clearfix">
+	<div class="left_dichan">
+		<p class="fenlei active1">房产信息</p>
+		<p class="fenlei">装饰家居</p>
+		<p class="fenlei">汽车</p>
+		<p class="fenlei">金融财税</p>
+		<p class="fenlei">酒店</p>
+		<p class="fenlei">餐饮</p>
+		<p class="fenlei">夜生活</p>
+		<p class="fenlei">美体休闲</p>
+		<p class="fenlei">专卖</p>
+		<p class="fenlei">茶艺收藏</p>
+		<p class="fenlei">旅游</p>
+		<p class="fenlei">体育保健</p>
+	</div>
+	<div class="right_dichan">
+     <div>
+     	<img src="img/icon-fangchan.png" class="xinhedan">
+     	<div>
+     		<p class="xh">星河丹地产</p>
+     		<img src="img/laba.png" class="laba">
+     		<span>[惠阳 淡水]</span>
+     		<p>户型：2室|3室|4室</p>
+     		<p>元旦优惠价：8500元/㎡</p>
+     	</div>
+
+     </div>
+     <div>
+     	<img src="img/icon-fangchan.png" class="xinhedan">
+     	<div>
+     		<p class="xh">星河丹地产</p>
+     		<img src="img/laba.png" class="laba">
+     		<span>[惠阳 淡水]</span>
+     		<p>户型：2室|3室|4室</p>
+     		<p>元旦优惠价：8500元/㎡</p>
+     	</div>
+
+     </div>
+     <div>
+     	<img src="img/icon-fangchan.png" class="xinhedan">
+     	<div>
+     		<p class="xh">星河丹地产</p>
+     		<img src="img/laba.png" class="laba">
+     		<span>[惠阳 淡水]</span>
+     		<p>户型：2室|3室|4室</p>
+     		<p>元旦优惠价：8500元/㎡</p>
+     	</div>
+
+     </div>
+     <div>
+     	<img src="img/icon-fangchan.png" class="xinhedan">
+     	<div>
+     		<p class="xh">星河丹地产</p>
+     		<img src="img/laba.png" class="laba">
+     		<span>[惠阳 淡水]</span>
+     		<p>户型：2室|3室|4室</p>
+     		<p>元旦优惠价：8500元/㎡</p>
+     	</div>
+
+     </div>
+     <div>
+     	<img src="img/icon-fangchan.png" class="xinhedan">
+     	<div>
+     		<p class="xh">星河丹地产</p>
+     		<img src="img/laba.png" class="laba">
+     		<span>[惠阳 淡水]</span>
+     		<p>户型：2室|3室|4室</p>
+     		<p>元旦优惠价：8500元/㎡</p>
+     	</div>
+
+     </div>
+     <div>
+     	<img src="img/icon-fangchan.png" class="xinhedan">
+     	<div>
+     		<p class="xh">星河丹地产</p>
+     		<img src="img/laba.png" class="laba">
+     		<span>[惠阳 淡水]</span>
+     		<p>户型：2室|3室|4室</p>
+     		<p>元旦优惠价：8500元/㎡</p>
+     	</div>
+
+     </div>
+     <div>
+     	<img src="img/icon-fangchan.png" class="xinhedan">
+     	<div>
+     		<p class="xh">星河丹地产</p>
+     		<img src="img/laba.png" class="laba">
+     		<span>[惠阳 淡水]</span>
+     		<p>户型：2室|3室|4室</p>
+     		<p>元旦优惠价：8500元/㎡</p>
+     	</div>
+
+     </div>
+
+	</div>
+</div>
+
+
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/touch-0.2.14.min.js"></script>
+<script type="text/javascript" src="js/jquery.swipe.js"></script>
+<script type="text/javascript">
+$("wrap").swiper({
+	autoplay: true,
+	animate: true
+})	
+$(".left_dichan>p").on("click",function(){
+	$(this).addClass("active1").siblings().removeClass("active1");
+})
+$(".header img").on("click",function(){
+	window.location.href = "shouye.html"
+})
+$(".right_dichan>div>img").on("click",function(){
+	window.location.href = "shenghuoxq.html"
+})
+$(".xh").on("click",function(){
+	window.location.href = "shenghuoxq.html"
+})
+
+
+</script>
+	
+</script>
+</body>
+</html>

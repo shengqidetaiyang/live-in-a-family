@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>订单详情</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/jibenzhiliao.css">
+<link rel="stylesheet" type="text/css" href="css/order.css">
+<link rel="stylesheet" type="text/css" href="css/orderdetails.css">
+<link rel="stylesheet" type="text/css" href="css/ordersentdetails.css">
+<link rel="stylesheet" type="text/css" href="css/orderreceiveddetails.css">
+<link rel="stylesheet" type="text/css" href="css/name.css">
+
+<body class="body">
+<header class="header">
+<img src="img/icon4.png">
+<span>订单详情</span>
+</header>
+<section class="custom-infor">
+	<p>刘晓心&nbsp&nbsp13562021254</p>
+	<p>广州市天河区东圃时代TIT广场</p>
+</section>
+<div class="fenge"></div>
+<ul class="my-order">
+	<li class="order-detail">
+	<div class="top-words clearfix">
+	<span class="buy-word">购买商品</span>
+	<span class="waiting-pay">待收货</span>
+	</div>
+		<div class="order-information">
+		<img src="img/goodIcon.png">
+		<div class="goods-infor">
+				<p class="goods-name">坚果特产山核桃奶油味培根...</p>
+				<p class="goods-standard">规格：&nbsp1盒6片</p>
+		        <p class="goods-price">￥29.5</p>
+		</div>
+		<span class="goods-num">x 2</span>
+		</div>
+		<div>
+			<div class="trans-expenses clearfix">
+			<span>运费：</span>
+			<span>￥10</span>
+			</div>
+			<p class="remark">备注：</p>
+		</div>
+	</li>
+
+</ul>
+<div class="fenge"></div>
+<section class="order-infor">
+	<p>订单信息</p>
+	<p>订单编号: SKYJ12525441</p>
+	<p>创建时间: 2015-10-02&nbsp&nbsp&nbsp 12:20</p>
+	<p>付款时间: 2015-10-02&nbsp&nbsp&nbsp 12:36</p>
+	<p>物流信息: 申通物流&nbsp&nbsp&nbsp 5221255142</p>
+</section>
+
+<span class="confirm" id="confirm">确认收货</span>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+$(".header img").on("click",function(){
+	window.location.href = "orderreceived.html"
+})
+$(".top-nav>span").on("click",function(){
+	$(this).addClass("nav-active").siblings().removeClass("nav-active");
+})
+
+})
+
+
+</script>
+	
+</script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>商城首页</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/shouye.css">
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/swipe.css">
+<link rel="stylesheet" type="text/css" href="css/comm.css">
+<link rel="stylesheet" type="text/css" href="css/huiyuan.css">
+<body class="body">
+<header class="header1">
+<img src="img/wode1.png" class="topimg">
+<div class="touxiang"></div>
+<p class="mc">凯丽_Kylie</p>
+<img src="img/zuanshi.png" class="zuanshi">
+<img src="img/huangguan.png" class="huangguan">
+<span class="gdhy">股东会员</span>
+<span class="vip">VIP会员</span>
+<div class="fenge"></div>
+</header>
+<div class="content">
+
+<div class="zl jb">
+<span></span>
+<span>基本资料</span>
+<img src="img/you.png">	
+</div>
+
+<div class="zl dd">
+<span></span>
+<span>我的订单</span>
+<img src="img/you.png">
+</div>
+
+<div class="zl sc">
+<span></span>
+<span>我的收藏</span>
+<img src="img/you.png">	
+</div>
+
+<div class="zl qb">
+<span></span>
+<span>我的钱包</span>
+<img src="img/you.png">	
+</div>
+
+<div class="zl dz">
+<span></span>
+<span>收货地址</span>
+<img src="img/you.png">	
+</div>
+
+<div class="zl hy">
+<span></span>
+<span>升级会员</span>
+<img src="img/you.png">	
+</div>
+
+</div>
+<div class="fenGe"></div>
+<div class="content">
+
+
+<div class="zl gd">
+<span></span>
+<span>更多</span>
+<img src="img/you.png">	
+</div>
+
+<div class="zl zx">
+<span></span>
+<span>注销</span>
+<img src="img/you.png">	
+</div>
+	
+</div>
+
+
+<!-- 图片 -->
+
+<!-- 页脚 -->
+<footer class="clearfix">
+	<a href="###"><div class="footer1"></div></a>
+	<a href="###"><div class="footer2"></div></a>
+	<a href="###"><div class="footer3"></div></a>
+	<a href="###"><div class="footer4"></div></a>
+	<a href="###"><div class="footer5"></div></a>
+</footer>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/touch-0.2.14.min.js"></script>
+<script type="text/javascript" src="js/jquery.swipe.js"></script>
+<script type="text/javascript">
+$(function(){
+$("wrap").swiper({
+	autoplay: true,
+	animate: true
+})	
+$(".jb").on("click",function(){
+	window.location.href = "jibenzhiliao.html"
+})
+$(".footer1").on("click",function(){
+	window.location.href = "../首页/shouye.html"
+})
+$(".gd").on("click",function(){
+	window.location.href = "moreInformation.html"
+})
+$(".hy").on("click",function(){
+	window.location.href = "vipDetails.html"
+})
+$(".qb").on("click").on("click",function(){
+	window.location.href = "mypurse.html"
+})
+$(".sc").on("click").on("click",function(){
+	window.location.href = "mycollect.html"
+})
+$(".dz").on("click",function(){
+	window.location.href = "getadress.html"
+})
+$(".dd").on("click",function(){
+	window.location.href = "order.html"
+})
+
+
+})
+
+</script>
+	
+</script>
+</body>
+</html>

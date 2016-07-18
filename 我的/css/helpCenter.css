@@ -1,0 +1,63 @@
+.help-top{
+	height: 275px;
+	width: 100%;
+	position: relative;
+}
+.help-center{
+	border:none;
+}
+.content{
+	text-align: center;
+	width: 100%;
+}
+.help-top .content .help-icon{
+	width: 30%;
+	margin-left: 35%;
+	height: 88px;
+	background:url(../img/helphead.png) no-repeat;
+	background-size: 45px 45px;
+	background-position: center 100%;
+
+}
+.work-time{
+	font-size: 1.3rem;
+	color: #808080;
+	margin-top: 10px;
+}
+.phone-num{
+	font-size: 1.8rem;
+	color: #808080;
+}
+.phone-button{
+	margin-left: 38%;
+	width: 24%;
+	height: 30px;
+	background-color:#5fb9ff;
+	border-radius: 4px;
+	margin-top: 15px;
+}
+.phone-button span{
+	height: 30px;
+	display: inline-block;
+}
+.phone-button span:nth-of-type(1){
+	width: 20px;
+	background:url(../img/phoneIcon.png) no-repeat;
+	background-size: 14px 14px;
+	background-position: center center;
+	vertical-align: top;
+}
+.phone-button span:nth-of-type(2){
+	font-size: 1.2rem;
+	color: white;
+	line-height: 30px;
+
+}
+.normal-question{
+	line-height: 33px;
+	font-size: 1.3rem;
+	color: #808080;
+	position: absolute;
+	bottom: 0;
+	left: 3%;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>客服</title>
+</head>
+
+
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/comm.css">
+<link rel="stylesheet" type="text/css" href="css/dingwei.css">
+<link rel="stylesheet" type="text/css" href="css/kefu.css">
+<body class="body">
+<header class="header clearfix">
+<img src="img/icon4.png" class="header1">
+<span class="city" id="kefu">一键客服</span>
+</header>
+<div class="nr">
+	<p class="lx">联系信息：</p>
+	<div class="bd">
+	 <form>
+			<input type="text" value="姓名:" class="name"></input>
+	
+			<div class="bj"></div>
+			<input type="text" value="联系方式:" class="tel"></input>
+	</form>
+	</div>
+	<p class="xq">需求类型：</p>
+	<div class="xqlx">
+		<input id="xq" placeholder="输入商业合作/商品合作/广告加盟等商品信息"></input>
+	</div>
+	<p class="ms">需求描述：</p>
+	<div class="xqms">
+		<textarea id="ms" placeholder="请根据需求类型，输入详细的合作模式（如：商品入驻，请注明具体的商品、数量等），平台会在第一时间与您进行沟通联系。"></textarea>
+	</div>
+	<div class="tx">
+		<img src="img/zy.png">
+		<span>需求提交后，平台会在第一时间与您联系。</span>
+	</div>
+	<span class="tj">提&nbsp&nbsp交</span>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+var index = 0;
+$(".content>p").bind("click",function(){
+	index = $(this).index();
+	// alert(index);
+	if(index > 2){
+	window.location.href =  index + ".html";		
+	}
+
+})	
+	$(".header img").on("click",function(){
+		window.location.href = "shouye.html"
+	})
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+#pay-active{
+	display: none;
+}
+.order-sum span:nth-of-type(5){
+	display: inline-block;
+	width: 83px;
+	height: 30px;
+	border:1px solid #999;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 1.5rem;
+	color: #666;
+	margin-left: 4%;
+}
+#have-finished{
+	color: #666;
+}

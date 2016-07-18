@@ -1,0 +1,80 @@
+.buy-word,.waiting-pay{
+	font-size: 1.5rem;
+	color: #333;
+	line-height: 38px;
+	width: 50%;
+	float: left;
+}
+.top-words{
+	width: 100%;
+}
+.waiting-pay{
+	text-align: right;
+}
+.custom-infor{
+	font-size: 1.5rem;
+	color: #333;
+	padding-left:3%;
+	background-color: white;
+	border-bottom: 1px solid #dbdbdb;
+}
+.custom-infor>p:nth-of-type(1){
+	line-height: 40px;
+}
+.custom-infor>p:nth-of-type(2){
+	line-height: 25px;
+	padding-bottom: 15px;
+}
+.trans-expenses,.remark{
+	font-size:1.4rem;
+	color: #666;
+	line-height: 47px;
+}
+.trans-expenses span{
+	width: 50%;
+	float: left;
+}
+.trans-expenses span:nth-of-type(2){
+	text-align: right;
+}
+.trans-expenses{
+	border-bottom: 1px solid #dbdbdb;	
+}
+.order-infor{
+	padding: 0 3%;
+	background-color: white;
+	border-bottom: 1px solid #dbdbdb;
+}
+.order-infor p:nth-of-type(1){
+	font-size: 1.4rem;
+	color: #666;
+	line-height: 36px;
+	border-bottom: 1px solid #dbdbdb;
+}
+.order-infor p:nth-of-type(2),.order-infor p:nth-of-type(3){
+	font-size: 1.4rem;
+	color: #333;
+	line-height: 22px;
+}
+.order-infor p:nth-of-type(2){
+	margin-top: 12px;
+}
+.order-infor p:nth-of-type(3){
+	padding-bottom: 100px;
+}
+#confirm{
+	margin-top: 22px;
+}
+.goods-standard{
+	font-size: 1.3rem;
+	color: #757575;
+}
+
+
+
+
+
+
+
+
+

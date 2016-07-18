@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>特价专区</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/tejia.css">
+<link rel="stylesheet" type="text/css" href="css/shenghuoxq.css">
+<link rel="stylesheet" type="text/css" href="css/shenghuo.css">
+<body class="body" id="body">
+<div class="mengban"></div>
+<div id="fenxiang">
+	<p>分享到</p>
+	<img src="img/weixin.png">
+	<img src="img/pengyouquan.png">
+	<img src="img/weibo.png">
+	<span>取&nbsp&nbsp&nbsp消</span>
+</div>
+<div class="mengcheng"></div>
+<img src="img/fangchan.png" class="fangchan">
+<img src="img/icon4.png" class="fanhui">
+<img src="img/fenxiang.png" class="fenxiang">
+<div class="js">
+	<p>[番禺 华南]星力时代豪庭</p>
+	<p>番禺地铁大盘低首付5万起送入户花园，4万抵10万抢购中，市场均价：住宅 12800元/㎡</p>
+</div>
+<div class="fenge"></div>
+     <div class="xinxi">
+     	<img src="img/icon-fangchan.png" class="xinhedan">
+     	<div>
+     		<p>九江康瑞地产</p>
+     		<p>地址：天河南路123号</p>
+     		<div>
+     		<img src="img/dianhua.png" class="dianhua">
+     		<span>400 890 2828</span>
+     		<span>转</span>
+     		<span>60852</span>
+     		</div>
+     	</div>
+     </div>
+<div class="fenge"></div>
+<div class="tupian">
+	<img src="img/dichan2.png">
+</div>
+
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<script type="text/javascript">
+$(function(){
+
+	$(".fanhui").on("click",function(){
+		window.location.href = "shenghuo.html"
+	})
+
+	$(".fenxiang").on("click",function(){
+		$(".mengban").show();
+		$("#fenxiang").show();
+		  $(window).scroll(function(){
+	        $(this).scrollTop(0);
+	    });
+
+	})
+	$("#fenxiang span").on("click",function(){
+		$(".mengban").hide();
+		$("#fenxiang").hide();
+		$(window).unbind ('scroll');
+     
+  	
+	})
+	$("footer .img3").on("click",function(){
+		$(".chongzhi").show();
+	    $(".mengban").show();
+	    $(document).on("click",function(e){
+	    	target = e.target;
+	    	// alert(target.className);
+	    	// alert(target.className == "img img3");
+	    	if((target.className != 'img img3')&&(target.className != 'chongzhi')){
+				$(".chongzhi").hide();
+			    $(".mengban").hide();
+	    	}
+	    	else if((target.className == 'chongzhi')){
+	    		window.location.href = "dingdanxiangqing.html";
+	    	}
+
+	    })
+	})
+
+})
+</script>
+	
+</script>
+</body>
+</html>

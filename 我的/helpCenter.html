@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>帮助中心</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/jibenzhiliao.css">
+<link rel="stylesheet" type="text/css" href="css/helpCenter.css">
+
+<body class="body">
+<header class="header">
+<img src="img/icon4.png">
+<span>帮助中心</span>
+</header>
+<section class="help-top">
+	<div class="content">
+		<div class="help-icon"></div>
+		<p class="work-time">周一至周五 8:00-18:00</p>
+		<p class="phone-num">4000-8888-08</p>
+		<div class="phone-button">
+		<span></span>
+		<span>一键拨打</span>
+		</div>
+	</div>
+<span class="normal-question">常见问题</span>
+</section>
+
+<div class="touxiang xm about-us change-adress">
+	<span>1.如何修改收货地址</span>
+	<img src="img/you.png" class="you change-pwd">
+</div>
+<div class="touxiang xm help-center">
+	<span>2.如何修改密码</span>
+	<img src="img/you.png" class="you purse-pwd">
+</div>
+<div class="touxiang xm advice-back">
+	<span>3.如何退款</span>
+	<img src="img/you.png" class="you provide">
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+$(".header img").on("click",function(){
+	window.location.href = "moreInformation.html"
+})
+$(".change-adress").on("click",function(){
+	window.location.href = "normalQuestion.html"
+})
+
+
+})
+
+</script>
+	
+</script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+.profession,.can-provide{
+	width: 94%;
+	margin-left: 3%;
+	height: 45px;
+	background-color: white;
+	border:1px solid #dbdbdb;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+.profession span,.can-provide span{
+	line-height: 45px;
+	font-size: 1.5rem;
+	color: #808080;
+	margin-left: 15px;
+}
+.profession input,.can-provide input{
+	width: 70%;
+	height: 45px;
+	border:none;
+	line-height: 45px;
+	font-size: 1.5rem;
+	color: #808080;
+}
+.can-provide{
+	margin-top: 10px;
+}
+.describe{
+	width: 94%;
+	margin-left: 3%;
+	height: 90px;
+	background-color: white;
+	border-radius: 5px;
+	border:1px solid #dbdbdb;
+	margin-top: 10px;
+}
+.describe span{
+	height: 45px;
+	font-size: 1.5rem;
+	color: #808080;
+	line-height: 45px;
+	display: inline-block;
+	margin-left: 3%;
+}
+.describe textarea{
+	width: 86%;
+	height: 65px;
+	vertical-align: top;
+	outline: none;
+	margin-top: 14px;
+	font-size: 1.5rem;
+	color:#808080;
+}
+.get-photo{
+	margin-top: 16px;
+	margin-left: 3%;
+	font-size:1.5rem;
+	color: #808080;
+	display: inline-block;
+}
+.photo-box{
+	width: 65px;
+	height: 65px;
+	border:1px solid #dbdbdb;
+	border-radius: 4px;
+	background-color: white;
+	margin-top: 20px;
+	margin-left: 3%;
+	background:url(../img/get_photo.png) no-repeat;
+	background-size: 23px 23px;
+	background-position: 50% 50%;
+}
+.get-photo{
+	display: none;
+}

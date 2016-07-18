@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>商城首页</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/jibenzhiliao.css">
+
+<body class="body">
+<header class="header">
+<img src="img/icon4.png">
+<span>基本资料</span>
+</header>
+<div class="touxiang">
+	<span>头像</span>
+	<div></div>
+	<img src="img/you.png" class="you">
+</div>
+<div class="touxiang xm ">
+	<span>姓名</span>
+	<span>李晓晓</span>
+	<img src="img/you.png" class="you name">
+</div>
+<div class="touxiang xm zs">
+	<span>会员标志</span>
+	<img src="img/zuanshi.png" class="zuanshi">
+</div>
+<div class="touxiang xm lx">
+	<span>联系方式</span>
+	<span>136***1245</span>
+	<img src="img/you.png" class="you contact">
+</div>
+<div class="fenge"></div>
+<div class="touxiang xm">
+	<span>修改密码</span>
+	<img src="img/you.png" class="you change-pwd">
+</div>
+<div class="touxiang xm">
+	<span>修改钱包密码</span>
+	<img src="img/you.png" class="you purse-pwd">
+</div>
+<div class="touxiang xm">
+	<span>我能供应</span>
+	<img src="img/you.png" class="you provide">
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+$(".header img").on("click",function(){
+	window.location.href = "huiyuan.html"
+})
+$(".name").on("click",function(){
+	window.location.href = "name.html"
+})
+$(".contact").on("click",function(){
+	window.location.href = "contact.html"
+})
+$(".change-pwd").on("click",function(){
+	window.location.href = "changepwd.html"
+})
+$(".purse-pwd").on("click",function(){
+	window.location.href = "pursepwd.html"
+})
+$(".provide").on("click",function(){
+	window.location.href = "provide.html"
+})
+
+
+})
+
+</script>
+	
+</script>
+</body>
+</html>

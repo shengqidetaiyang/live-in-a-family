@@ -1,0 +1,44 @@
+.adress{
+	padding-left: 3%;
+	border-bottom: 1px solid #dbdbdb;
+	background-color: white;
+	box-sizing: border-box;
+}
+.adress-details{
+	width: 85%;
+	float: left;
+}
+.adress-icon{
+	float: right;
+	height: 81px;
+	width: 10%;
+	background:url(../img/you.png) no-repeat;
+	background-size: 8px 14px;
+	background-position: center center;
+}
+.adress-details p{
+	line-height: 39px;
+	font-size: 1.5rem;
+	color: #333;
+}
+.default{
+	font-size: 1.5rem;
+	color: #f29004;
+	display: none;
+	margin-right: 10px;
+}
+.default + span{
+	display: inline-block;
+	font-size: 1.5rem;
+	margin-bottom: 20px;
+}
+.fenge{
+	width: 100%;
+	height: 9px;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #dbdbdb;
+
+}
+.active{
+	display: inline-block;
+}

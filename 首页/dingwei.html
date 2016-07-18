@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>定位</title>
+</head>
+
+
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/comm.css">
+<link rel="stylesheet" type="text/css" href="css/dingwei.css">
+<body class="body">
+<header class="header clearfix">
+<img src="img/icon4.png" class="header1">
+<span class="city">选择城市</span>
+</header>
+<div class="content">
+<p class="weizhi">当前位置</p>
+<p>广州市</p>
+<p class="liebiao">省市列表</p>
+<p class="beijing">北京市</p>
+<p>天津市</p>
+<p>河北省</p>
+<p>山西省</p>
+<p>内蒙古自治区</p>
+<p>辽宁省</p>
+<p>吉林省</p>
+<p>黑龙江省</p>
+<p>上海市</p>
+<p>江苏省</p>
+<p>浙江省</p>
+<p>安徽省</p>
+<p>福建省</p>
+<p>江西省</p>
+<p>山东省</p>
+<p>河南省</p>
+<p>湖北省</p>
+<p>湖南省</p>
+<p>广东省</p>
+<p>海南省</p>
+<p>广西壮族自治区</p>
+<p>甘肃省</p>
+<p>陕西省</p>
+<p>新疆维吾尔自治区</p>
+<p>青海省</p>
+<p>宁夏回族自治区</p>
+<p>重庆市</p>
+<p>四川省</p>
+<p>贵州省</p>
+<p>云南省</p>
+<p>西藏自治区</p>
+<p>台湾省</p>
+<p>澳门特别行政区</p>
+<p>香港特别行政区</p>
+</div>
+
+
+<footer class="clearfix">
+	<a href="###"><div class="footer1"></div></a>
+	<a href="###"><div class="footer2"></div></a>
+	<a href="###"><div class="footer3"></div></a>
+	<a href="###"><div class="footer4"></div></a>
+	<a href="###"><div class="footer5"></div></a>
+</footer>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+var index = 0;
+$(".content>p").bind("click",function(){
+	index = $(this).index();
+	// alert(index);
+	if(index > 2){
+	window.location.href =  index + ".html";		
+	}
+
+})	
+	$(".header img").on("click",function(){
+		window.location.href = "shouye.html"
+	})
+</script>
+
+
+</body>
+</html>

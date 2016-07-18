@@ -1,0 +1,28 @@
+.header1{
+	width: 10px;
+	margin-top: 14px;
+
+}
+.city{
+	font-size: 2rem;
+	color: white;
+	margin-left: 42%;
+}
+.content{
+	background-color: rgb(242,242,242);
+
+}
+.content p{
+	height: 55px;
+	font-size: 1.6rem;
+	padding-left: 3%;	
+	border-bottom: 1px solid rgb(229,229,229);
+	padding-top: 5%;
+	box-sizing: border-box;
+}
+.weizhi,.liebiao{
+	height: 40px;
+}
+.liebiao{
+	background-color: rgb(230,230,230);
+}

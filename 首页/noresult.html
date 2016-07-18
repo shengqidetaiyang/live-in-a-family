@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>搜索</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/comm.css">
+<link rel="stylesheet" type="text/css" href="css/dingwei.css">
+<link rel="stylesheet" type="text/css" href="css/sousuo.css">
+<link rel="stylesheet" type="text/css" href="css/jieguo.css">
+<link rel="stylesheet" type="text/css" href="css/noresult.css">
+<body class="body">
+<div class="mengban"></div>
+<div class="tanchuang">
+	<div class="niuyan">
+	<span>留言</span>
+	<img src="img/x.png" class="xpng">
+	</div>
+
+	<textarea class="text" placeholder="想买的什么商品？"></textarea>
+	<span class="submit">提交</span>
+</div>
+<header class="clearfix" id="header">
+<img src="img/icon4.png" class="header1">
+<span class="city" id="sousuo">搜索</span>
+</header>
+<div class="neirong">
+<input class="shuru" placeholder="输入关键字/商品名称"></input>	
+<img src="img/sousuo2.png" class="sousuo1">
+</div>
+<div id="noresult">
+
+<img src="img/noresult.png" class="noresult">
+<p>抱歉，没有找到相关的商品!</p>
+<p>给我留言告诉你喜欢的东西吧</p>
+<span>我要留言</span>
+</div>
+
+
+
+
+<footer class="clearfix">
+	<a href="###"><div class="footer1"></div></a>
+	<a href="###"><div class="footer2"></div></a>
+	<a href="###"><div class="footer3"></div></a>
+	<a href="###"><div class="footer4"></div></a>
+	<a href="###"><div class="footer5"></div></a>
+</footer>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+	$("#header img").on("click",function(){
+		window.location.href = "shouye.html";
+	})
+	$("#noresult>span").on("click",function(){
+		$(".mengban").show();
+		$(".tanchuang").show();
+	})
+	$(".tanchuang img").on("click",function(){
+		$(".mengban").hide();
+		$(".tanchuang").hide();
+	})
+</script>
+
+
+</body>
+</html>
