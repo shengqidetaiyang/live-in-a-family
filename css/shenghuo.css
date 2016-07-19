@@ -7,7 +7,7 @@
 	z-index: 5;
 }
 .body{
-	padding-top: 209px;
+	padding-top:53%;
 }
 .content_dichan{
 	width: 100%;
@@ -41,7 +41,7 @@
 	line-height: 105px;
 }
 .xinhedan{
-	width: 88px;
+	width: 30%;
 	vertical-align: top;
 }
 .laba{
@@ -70,4 +70,13 @@
 .active1{
 	background-color: rgb(223,224,225);
 	border-left:6px solid rgb(232,125,12);
+}
+.back-icon{
+	display: inline-block;
+	height: 44px;
+	width: 15px;
+	vertical-align: top;
+	background:url(../img/icon4.png) no-repeat;
+	background-size: 10px 18px;
+	background-position: center center;	
 }

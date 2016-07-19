@@ -23,8 +23,8 @@
 	<span class="submit">提交</span>
 </div>
 <header class="clearfix" id="header">
-<img src="img/icon4.png" class="header1">
-<span class="city" id="sousuo">搜索</span>
+<span class="back-icon"></span>
+<span class="shop-title">搜索</span>
 </header>
 <div class="neirong">
 <input class="shuru" placeholder="输入关键字/商品名称"></input>	
@@ -50,7 +50,7 @@
 </footer>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript">
-	$("#header img").on("click",function(){
+	$(".back-icon").on("click",function(){
 		window.location.href = "shouye.html";
 	})
 	$("#noresult>span").on("click",function(){

@@ -12,16 +12,21 @@
 <div class="mengban"></div>
 <div id="fenxiang">
 	<p>分享到</p>
-	<img src="img/weixin.png">
-	<img src="img/pengyouquan.png">
-	<img src="img/weibo.png">
-	<span>取&nbsp&nbsp&nbsp消</span>
+	<div class="share-icon-box clearfix">
+		<span class="share-icon-1"></span>
+	    <span class="share-icon-2"></span>
+	    <span class="share-icon-3"></span>
+		
+	</div>
+
+	<span class="cancel-button">取&nbsp&nbsp&nbsp消</span>
 </div>
-<div class="mengcheng"></div>
+<div class="mengcheng">
+	<span class="back-icons"></span>
+	<span class="share-icons"></span>
+	<span class="collect-icons"></span>
+</div>
 <img src="img/chongzhi.png" class="chongzhi">
-<img src="img/icon4.png" class="fanhui">
-<img src="img/shouchang.png" class="shouchang">
-<img src="img/fenxiang.png" class="fenxiang">
 <img src="img/jiaju-1.png" class="shouji">
 <div class="jiajubox clearfix"> 
 <img src="img/jiaju-2.png" class="jiaju">
@@ -31,8 +36,14 @@
 
 <div class="jieshao">
 <div class="up">
-	<p >沃之沃 多功能内衣袜子内裤收纳盒内衣盒六件套</p>
-	<span class="xianjia" id="xianjia"> ￥ 11.5</span><span>原价:</span><span>￥12.8</span><span>销量: 1235</span>
+	<p>沃之沃 多功能内衣袜子内裤收纳盒内衣盒六件套</p>
+	<div class="up-details">
+		<span class="xianjia"> ￥ 11.5</span>
+		<span class="original-price">原价:</span>
+		<del class="original-num">￥12.8</del>
+		<span class="sales-volume">销量: 1235</span>	
+	</div>
+
 </div>
 <div class="down">
 	<span>限时:&nbsp&nbsp&nbsp2天23分02秒</span><span>限量:120件</span>
@@ -89,7 +100,7 @@ $(function(){
         
 
 	})
-	$(".fanhui").on("click",function(){
+	$(".back-icons").on("click",function(){
 		window.location.href = "jiaju.html"
 	})
 
@@ -101,7 +112,7 @@ $(function(){
 	    });
 
 	})
-	$("#fenxiang span").on("click",function(){
+	$(".cancel-button").on("click",function(){
 		$(".mengban").hide();
 		$("#fenxiang").hide();
 		$(window).unbind ('scroll');
@@ -124,6 +135,14 @@ $(function(){
 	    	}
 
 	    })
+	})
+	$(".share-icons").on("click",function(){
+		$(".mengban").show();
+		$("#fenxiang").show();
+		  // $(window).scroll(function(){
+	   //      $(this).scrollTop(0);
+	   //  });
+
 	})
 
 })

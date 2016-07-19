@@ -11,10 +11,12 @@
 <link rel="stylesheet" type="text/css" href="css/comm.css">
 <body class="body">
 <header class="header clearfix">
-    <span class="header0">广州</span>
-	<img src="img/icon1.png" class="header1">
-	<img src="img/wenzi.png" class="header2">
-	<img src="img/icon3.png" class="header3">
+<div class="your-position">
+<span>广州</span>
+<span class="down-icon"></span>
+</div>
+<span class="search-icon"></span>
+<span class="shop-title">生活一家</span>
 </header>
 
 <!-- 大图滚动 -->
@@ -70,10 +72,10 @@ $("wrap").swiper({
 $(".header img").eq(0).on("click",function(){
 	window.location.href = "dingwei.html"
 })
-$(".header0").on("click",function(){
+$(".down-icon").on("click",function(){
 	window.location.href = "dingwei.html"
 })
-$(".header img").eq(2).on("click",function(){
+$(".search-icon").on("click",function(){
 	window.location.href = "sousuo.html"
 })
 $(".lei>a").on("click",function(){
