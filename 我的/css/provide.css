@@ -58,6 +58,9 @@
 	font-size:1.5rem;
 	color: #808080;
 	display: inline-block;
+
+}
+#get-photo{
 	visibility:hidden;
 }
 .photo-box{
