@@ -146,28 +146,47 @@ html,body{
 	padding: 13px;
 	
 }
+.neirong2 p{
+	height: 16px;
+	line-height: 16px;
+	font-size: 1.5rem;
+	margin-top: 15px;
+}
+.judge-box{
+	width: 100%;
+	height: 15px;
+}
+.neirong2 span{
+	display: inline-block;
+	height: 15px;
+	line-height: 15px;
+	font-size: 1.3rem;
+}
+.judge-time{
+	float: right;
+	color: #010101;
+}
+.judge-stars,.judge-user{
+	float: left;
+}
+.judge-stars{
+	width: 18px;
+	background:url(../img/1.png) no-repeat;
+	background-size: 9px 9px;
+	background-position: center center;
+}
+.judge-stars1{
+	margin-left: 2%;
+}
+.judge-stars-active{
+	background:url(../img/0.png) no-repeat;
+	background-size: 9px 9px;
+	background-position: center center;	
+}
 .neirong1 p{
 	font-size: 1rem;
 	text-indent: 2rem;
 	line-height:19px;
-}
-.neirong2 .img1{
-	width: 9px;
-}
-.neirong2 .img0{
-	margin-left: 4%;
-}
-.neirong2 span:nth-of-type(1){
-	font-size: 1.2rem;
-
-}
-.neirong2 span:nth-of-type(2){
-	display: inline-block;
-	margin-left: 50%;
-	margin-bottom:15px;
-}
-.neirong2 p{
-	font-size: 1.3rem;
 }
 footer{
 	height: 50px;

@@ -14,18 +14,19 @@
 	margin-left: 15px;
 }
 .profession input,.can-provide input{
-	width: 70%;
+	width: 65%;
 	height: 45px;
 	border:none;
 	line-height: 45px;
 	font-size: 1.5rem;
 	color: #808080;
+	/*background-color: red;*/
 }
 .can-provide{
 	margin-top: 10px;
 }
 .describe{
-	width: 94%;
+	width: 85%;
 	margin-left: 3%;
 	height: 90px;
 	background-color: white;
@@ -42,13 +43,14 @@
 	margin-left: 3%;
 }
 .describe textarea{
-	width: 86%;
+	width: 80%;
 	height: 65px;
 	vertical-align: top;
 	outline: none;
 	margin-top: 14px;
 	font-size: 1.5rem;
 	color:#808080;
+	/*background-color: red;*/
 }
 .get-photo{
 	margin-top: 16px;

@@ -11,8 +11,12 @@
 	border-radius: 3px;
 	font-size: 1.5rem;
 	color: #666;
-	margin-left: 4%;
+	float: right;
+	margin-top: 5px;
 }
 #have-finished{
 	color: #666;
+}
+#have-commit{
+	margin-left: 2px;
 }

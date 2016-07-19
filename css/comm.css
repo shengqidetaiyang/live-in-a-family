@@ -16,6 +16,7 @@ body{
 	padding-left: 3%;
 	padding-right: 3%;
 	box-sizing: border-box;
+	z-index: 1110;
 }
 
 footer{
@@ -31,32 +32,32 @@ footer div{
 	float: left;
 }
 .footer1{
-	background: url(../img/yejiao.jpg) no-repeat;
-	background-size: 457%;
-	background-position: -11% 54%;
+	background: url(../img/max-icon.png) no-repeat;
+	background-size: 320px 89px;
+	background-position: -8% 116%;
 	background-color: white;
 }
 .footer2{
-	background: url(../img/yejiao.jpg) no-repeat;
-	background-size: 457%;
-	background-position: 21% 54%;
+	background: url(../img/max-icon.png) no-repeat;
+	background-size: 320px 89px;
+	background-position: 21% -20%;
 	background-color: white;
 }
 .footer3{
-	background: url(../img/yejiao.jpg) no-repeat;
-	background-size: 457%;
-	background-position: 50% 54%;
+	background: url(../img/max-icon.png) no-repeat;
+	background-size: 320px 89px;
+	background-position: 50% -20%;
 	background-color: white;
 }
 .footer4{
-	background: url(../img/yejiao.jpg) no-repeat;
-	background-size: 457%;
-	background-position: 81% 54%;
+	background: url(../img/max-icon.png) no-repeat;
+	background-size: 320px 89px;
+	background-position: 79% -20%;
 	background-color: white;
 }
 .footer5{
-	background: url(../img/yejiao.jpg) no-repeat;
-	background-size: 457%;
-	background-position: 112% 54%;
+	background: url(../img/max-icon.png) no-repeat;
+	background-size: 320px 89px;
+	background-position: 108% -20%;
 	background-color: white;
 }

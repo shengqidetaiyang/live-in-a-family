@@ -12,5 +12,4 @@ address,cite,code,em,th,i{font-weight:normal; font-style:normal;}
 .clearfix:after{display:block; overflow:hidden; clear:both; height:0; visibility:hidden; content:".";}
 body{
 	max-width: 750px;
-	min-width: 375px;
 }

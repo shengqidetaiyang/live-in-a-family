@@ -25,7 +25,7 @@
 	text-align: center;
 	border-radius: 3px;
 	top: 6px;
-	left: 65%;
+	left: 57%;
 }
 .mengban{
 	width: 100%;
@@ -86,10 +86,14 @@
 	font-size: 1.1rem;
 	color: #666;
 	line-height: 45px;
+	float: right;
+	margin-right: 3%;
+	margin-left: 1%;
 
 }
 .im-icon2{
-	margin-left: 20%;
+	float: right;
+	margin-top: 11px;
 }
 .select-reason{
 	border:none;
