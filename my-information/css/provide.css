@@ -47,10 +47,10 @@
 	height: 65px;
 	vertical-align: top;
 	outline: none;
+	border:none;
 	margin-top: 14px;
 	font-size: 1.5rem;
 	color:#808080;
-	/*background-color: red;*/
 }
 .get-photo{
 	margin-top: 16px;
