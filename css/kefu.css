@@ -14,7 +14,8 @@ body,html{
 	margin-bottom: 3%;
 }
 .bd{
-	padding: 4% 5%;
+	/*padding: 4% 5%;*/
+	padding: 4% 5% 4% 5%;
 	height: 90px;
 }
 .bd,.xqlx,.xqms{
