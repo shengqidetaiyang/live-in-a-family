@@ -14,7 +14,7 @@
 	position: relative;
 }
 .left_dichan {
-	position: fixed;
+	position: absolute;
 	left: 0;
 	width:28%;
 	height: 100%;
