@@ -63,6 +63,7 @@
 .lei{
 	padding: 3%;
 	box-sizing: border-box;
+	padding-bottom: 0;
 }
 .img1{
 	width: 100%;
@@ -83,9 +84,27 @@
 	width: 67%;
 	float: right;
 }
-.body{
+#body{
 	background-color: #f2f2f2;
 }
-
+.onsale-words{
+	height: 35px;
+	width: 100%;
+	background:url(../img/straight-line.png) no-repeat;
+	background-size: 100% 1px;
+	background-position: center;
+}
+.onsale-words span{
+	display: inline-block;
+	position: absolute;
+	font-size: 1.4rem;
+	color: #808080;
+	line-height: 35px;
+	z-index: 2;
+	background-color: #f2f2f2;
+	width:36%;
+	margin-left: 32%;
+	text-align: center;
+}
 
 
