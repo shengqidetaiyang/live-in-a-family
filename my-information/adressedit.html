@@ -19,17 +19,17 @@
 </header>
 <div class="fenge"></div>
 <div class="your-name">
-	<input type="text" placeholder="收货人姓名"></input>
+	<span class="infor-text">收货人姓名:</span><input type="text"></input>
 </div>
 <div class="your-name">
-	<input type="text" placeholder="联系电话"></input>
+	<span class="infor-text">联系电话:</span><input type="text"></input>
 </div>
 
 
 
 
 <div class="your-name">
-	<span id="your-city">城市:</span>
+	<span class="infor-text" id="your-city">城市:</span>
 	<span class="province" id="pro">省级</span>
 	<div class="province-icon"><select class="pro-choose"></select></div>
 	<span class="province" id="city">市级</span>
@@ -41,7 +41,7 @@
 	<input type="text" placeholder="小区、街道、门牌等详细信息"></input>
 </div>
 <div class="your-name">
-	<span>设为默认地址</span>
+	<span class="infor-words">设为默认地址</span>
 	<span class="default-button">
 		<span class="radius-button"></span>
 	</span>
@@ -126,10 +126,7 @@ function display(){
 	$("#county").html($(".count-choose").val());
 }
 })
-$(".confirm").on("click",function(){
-	$(".radius-button").click();
-	$(".pro-choose").focus();
-})
+
 
 </script>
 	

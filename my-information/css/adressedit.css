@@ -15,9 +15,18 @@
 	line-height: 45px;
 	font-size: 1.5rem;
 	color: #4c4c4c;
-	width: 90%;
+	width: 70%;
+	text-indent: 10px;
+
 }
-.your-name>span:nth-of-type(1){
+.infor-text{
+	font-size: 1.5rem;
+	height: 45px;
+	display: inline-block;
+	line-height: 45px;
+	color: #4c4c4c;
+}
+.infor-words{
     display: inline-block;
 	height: 45px;
 	line-height: 45px;
