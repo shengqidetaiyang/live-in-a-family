@@ -2,6 +2,8 @@
 	padding: 0;
 	padding-bottom: 100px;
 	background-color: #f2f2f2;
+	max-width: 750px;
+	margin: 0 auto;
 }
 .header1{
 	position: relative;

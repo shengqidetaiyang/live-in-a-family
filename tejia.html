@@ -9,16 +9,16 @@
 <link rel="stylesheet" type="text/css" href="css/tejia.css">
 <body class="body">
 <div class="mengban" id="mengban"></div>
-<div id="fenxiang">
+<div id="fenxiang" class="clearfix">
 	<p>分享到</p>
 	<div class="share-icon-box clearfix">
 		<span class="share-icon-1"></span>
 	    <span class="share-icon-2"></span>
 	    <span class="share-icon-3"></span>
-		
+		<span class="cancel-button">取&nbsp&nbsp&nbsp消</span>	
 	</div>
 
-	<span class="cancel-button">取&nbsp&nbsp&nbsp消</span>
+
 </div>
 <div class="mengcheng">
 	<span class="back-icons"></span>
@@ -77,10 +77,12 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	
 </div>
 <footer class="clearfix">
-<img src="img/gouwuche.png" class="img1">
-<span class="img4">2</span>
-<img src="img/gwc.png" class="img img2">
-<img src="img/goumai.png" class="img img3">
+<div class="shopping-cart">
+	<span class="img4">2</span>
+</div>
+<a href="javascript:void(0)" class="buy-soon">立即购买</a>
+<a href="javascript:void(0)" class="put-in-cart">加入购物车</a>
+
 </footer>
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -109,7 +111,7 @@ $(function(){
 
 	})
 
-	$("footer .img3").on("click",function(){
+	$(".buy-soon").on("click",function(){
 		$(".chongzhi").show();
 	    $(".mengban").show();
 	    	

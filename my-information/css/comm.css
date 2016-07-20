@@ -24,6 +24,7 @@ footer{
 	bottom: 0;
 	width: 100%;
 	/*background-color: red;*/
+	max-width: 750px;
 }
 footer div{
 	width: 20%;
@@ -31,32 +32,30 @@ footer div{
 	float: left;
 }
 .footer1{
-	background: url(../img/max-icon.png) no-repeat;
-	background-size: 320px 89px;
-	background-position: -8% -20%;
+	background: url(../img/home-1.png) no-repeat;
+	background-size: 23px 36px;
+	background-position:center center;
 	background-color: white;
 }
 .footer2{
-	background: url(../img/max-icon.png) no-repeat;
-	background-size: 320px 89px;
-	background-position: 21% -20%;
+	background: url(../img/vip-1.png) no-repeat;
+	background-size: 43px 35px;
+	background-position:center center;
 	background-color: white;
 }
 .footer3{
-	background: url(../img/max-icon.png) no-repeat;
-	background-size: 320px 89px;
-	background-position: 50% -20%;
+	background: url(../img/classfy-1.png) no-repeat;
+	background-size: 22px 35px;
+	background-position:center center;
 	background-color: white;
-}
-.footer4{
-	background: url(../img/max-icon.png) no-repeat;
-	background-size: 320px 89px;
-	background-position: 79% -20%;
+}.footer4{
+	background: url(../img/cart-1.png) no-repeat;
+	background-size: 32px 35px;
+	background-position:center center;
 	background-color: white;
-}
-.footer5{
-	background: url(../img/max-icon.png) no-repeat;
-	background-size: 320px 89px;
-	background-position: 108% 116%;
+}.footer5{
+	background: url(../img/mine-2.png) no-repeat;
+	background-size: 21px 36px;
+	background-position:center center;
 	background-color: white;
 }
