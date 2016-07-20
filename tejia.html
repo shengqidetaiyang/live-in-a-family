@@ -105,19 +105,14 @@ $(function(){
 	$(".share-icons").on("click",function(e){
 		$("#mengban").show();
 		$("#fenxiang").show();
-		$(document).bind("touchmove",function(e){
-			  e.preventDefault();
-			});
+
 
 	})
 
 	$("footer .img3").on("click",function(){
 		$(".chongzhi").show();
 	    $(".mengban").show();
-	    	$(document).bind("touchmove",function(e){
-			  e.preventDefault();
-			});
-	    
+	    	
 	    
 	})
 
@@ -130,18 +125,15 @@ $(function(){
 		else if(target.className == 'cancel-button'){
 					$(".mengban").hide();
 	           	    $("#fenxiang").hide();
-	           	    	$(document).unbind("touchmove",function(e){
-			  e.preventDefault();
-			});
+	           	  
+	           	    
 
 		}
 	   else if(target.className == "mengban"){
 	 			$(".chongzhi").hide();
 			    $(".mengban").hide();
 			    $("#fenxiang").hide();  
-			    	$(document).unbind("touchmove",function(e){
-			  e.preventDefault();
-			});	
+		
 	   }
 })
 
