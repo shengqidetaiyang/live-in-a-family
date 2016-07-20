@@ -172,20 +172,15 @@ $(function(){
 		})
 
 	})
+	
 	$(".img3").bind("click",function(){
 		$(".chongzhi").show();
 	    $(".mengban").show();
-	    $(window).scroll(function(){
-	        $(this).scrollTop(0);
-	    });
 	    $(document).on("click",function(e){
 	    	target = e.target;
-	    	// alert(target.className);
-	    	// alert(target.className == "img img3");
 	    	if((target.className != 'img img3')&&(target.className != 'chongzhi')){
 				$(".chongzhi").hide();
 			    $(".mengban").hide();
-			    $(window).unbind ('scroll');
 	    	}
 	    	else if((target.className == 'chongzhi')){
 	    		window.location.href = "dingdanxiangqing.html";

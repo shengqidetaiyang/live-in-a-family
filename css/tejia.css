@@ -264,7 +264,7 @@ footer .img4{
 
 }
 .chongzhi{
-	position: absolute;
+	position: fixed;
 	width: 78%;
 	left: 11%;
 	top: 40%;

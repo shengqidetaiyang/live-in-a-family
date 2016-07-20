@@ -102,38 +102,49 @@ $(function(){
 		window.location.href = "shouye.html"
 	})
 
-	$(".share-icons").on("click",function(){
+	$(".share-icons").on("click",function(e){
 		$("#mengban").show();
 		$("#fenxiang").show();
-		  // $(window).scroll(function(){
-	   //      $(this).scrollTop(0);
-	   //  });
+		$(document).bind("touchmove",function(e){
+			  e.preventDefault();
+			});
 
 	})
-	$(".cancel-button").on("click",function(){
-		$(".mengban").hide();
-		$("#fenxiang").hide();
-	// 	$(window).unbind ('scroll');
-     
-  	
-	})
+
 	$("footer .img3").on("click",function(){
 		$(".chongzhi").show();
 	    $(".mengban").show();
-	    $(document).on("click",function(e){
-	    	target = e.target;
-	    	// alert(target.className);
-	    	// alert(target.className == "img img3");
-	    	if((target.className != 'img img3')&&(target.className != 'chongzhi')){
-				$(".chongzhi").hide();
-			    $(".mengban").hide();
-	    	}
-	    	else if((target.className == 'chongzhi')){
-	    		window.location.href = "dingdanxiangqing.html";
-	    	}
-
-	    })
+	    	$(document).bind("touchmove",function(e){
+			  e.preventDefault();
+			});
+	    
+	    
 	})
+
+	$(document).on("click",function(e){
+    	target = e.target;
+    	console.log(target.className);
+        if(target.className == 'chongzhi'){
+									    		window.location.href = "dingdanxiangqing.html";
+									    	}
+		else if(target.className == 'cancel-button'){
+					$(".mengban").hide();
+	           	    $("#fenxiang").hide();
+	           	    	$(document).unbind("touchmove",function(e){
+			  e.preventDefault();
+			});
+
+		}
+	   else if(target.className == "mengban"){
+	 			$(".chongzhi").hide();
+			    $(".mengban").hide();
+			    $("#fenxiang").hide();  
+			    	$(document).unbind("touchmove",function(e){
+			  e.preventDefault();
+			});	
+	   }
+})
+
 
 
 })
