@@ -118,18 +118,15 @@ $(function(){
 	    
 	})
 
-	$(document).on("click",function(e){
+	$(document).on("tap",function(e){
     	target = e.target;
-    	console.log(target.className);
+    	console.log(target);
         if(target.className == 'chongzhi'){
 									    		window.location.href = "dingdanxiangqing.html";
 									    	}
 		else if(target.className == 'cancel-button'){
 					$(".mengban").hide();
 	           	    $("#fenxiang").hide();
-	           	  
-	           	    
-
 		}
 	   else if(target.className == "mengban"){
 	 			$(".chongzhi").hide();
