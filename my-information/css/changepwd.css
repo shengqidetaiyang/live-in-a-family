@@ -20,13 +20,14 @@
 }
 .now-pwd input,.new-pwd input,.confirm-pwd input{
 	border:none;
-	height: 45px;
-	line-height: 45px;
+	height: 25px;
+	line-height: 25px;
 	font-size: 1.5rem;
 	color: #808080;
 	width: 55%;
 	float: right;
 	margin-right: 10%;
+	margin-top: 10px;
 
 }
 .new-pwd{
