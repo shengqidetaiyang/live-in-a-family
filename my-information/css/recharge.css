@@ -76,8 +76,9 @@
 	width: 80%;
 	font-size: 1.4rem;
 	color: #1a1a1a;
-	height: 43px;
-	line-height: 43px;
+	height: 23px;
+	line-height: 23px;
+	margin-top: 10px;
 	border:none;
 }
 .confirm{
