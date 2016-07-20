@@ -89,3 +89,9 @@
 	background-color: rgba(0,0,0,0);;
 	color: rgba(0,0,0,0);
 }
+.empty-box{
+	display: inline-block;
+	width: 0;
+	height: 45px;
+	vertical-align: middle;
+}
