@@ -11,14 +11,12 @@
 .your-name input{
 	outline: none;
 	border:none;
-	height: 45px;
+	height: 25px;
 	line-height: 25px;
 	font-size: 1.5rem;
 	color: #4c4c4c;
 	width: 70%;
 	text-indent: 10px;
-	padding: 4% 0;
-	box-sizing: border-box;
 
 }
 .infor-text{
