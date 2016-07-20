@@ -24,32 +24,16 @@
 <div class="your-name">
 	<input type="text" placeholder="联系电话"></input>
 </div>
-<select class="pro-choose">
-	<option>1</option>
-	<option>2</option>		
-	<option>3</option>	
-	<option>4</option>	
-
-</select>
-<select class="city-choose">
-	<option>1</option>
-	<option>2</option>		
-	<option>3</option>	
-	<option>4</option>	
-</select>
-<select class="count-choose">
-	<option>1</option>
-	<option>2</option>		
-	<option>3</option>	
-	<option>4</option>	
-</select>
+<select class="pro-choose"></select>
+<select class="city-choose" ></select>
+<select class="count-choose"></select>
 <div class="your-name">
 	<span id="your-city">城市:</span>
-	<span class="province">省级</span>
+	<span class="province" id="pro">省级</span>
 	<span class="province-icon"></span>
-	<span class="province">市级</span>
+	<span class="province" id="city">市级</span>
 	<span class="province-icon"></span>
-	<span class="province">区级</span>
+	<span class="province" id="county">区级</span>
 	<span class="province-icon"></span>
 </div>
 <div class="your-name">
@@ -66,6 +50,7 @@
 
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/china.js"></script>
 <script type="text/javascript">
 $(function(){
 $(".header img").on("click",function(){
@@ -92,8 +77,53 @@ $(".radius-button").on("click",function(){
 	}
 
 })
-
-
+// console.log(chinaArea);
+var chinadata = JSON.parse(chinaArea); 
+var provinceList = chinadata.china.province;
+for(var i = 0;i < provinceList.length;i++){
+	var option = $('<option></option>')
+	option.html(provinceList[i]["-name"]);
+	option.appendTo($(".pro-choose"));    
+}
+$(".pro-choose").change(function(){
+	cityData();
+	countData();
+	display();
+})
+$(".city-choose").change(function(){
+	countData();
+	display();
+})
+$(".count-choose").change(function(){
+	display();
+})
+var proindex = 0;
+var cityindex = 0;
+cityData();
+countData();
+function cityData(){
+	$(".city-choose").html("");
+	proindex = $(".pro-choose")[0].selectedIndex;
+	for(var i = 0;i < provinceList[proindex].city.length;i++){
+		var option = $('<option></option>')
+		option.html(provinceList[proindex].city[i]["-name"]);
+		option.appendTo($(".city-choose"));	
+	}
+}
+function countData(){
+	$(".count-choose").html("");
+	cityindex = $(".city-choose")[0].selectedIndex;
+	for(var i = 0;i < provinceList[proindex].city[cityindex].county.length;i++){
+		var option = $('<option></option>');
+		option.html(provinceList[proindex].city[cityindex].county[i]["-name"]);
+		option.appendTo($(".count-choose"));
+	}
+}
+function display(){
+	$("#pro").html($(".pro-choose").val());
+	$("#city").html($(".city-choose").val());
+	$("#county").html($(".count-choose").val());
+}
 })
 
 </script>
