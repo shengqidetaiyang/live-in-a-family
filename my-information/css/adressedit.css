@@ -94,4 +94,6 @@
 	display: inline-block;
 	height: 45px;
 	line-height: 45px;
+	font-size: 1.5rem;
+	color: rgba(0,0,0,0);
 }
