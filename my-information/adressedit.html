@@ -24,17 +24,18 @@
 <div class="your-name">
 	<input type="text" placeholder="联系电话"></input>
 </div>
-<select class="pro-choose"></select>
-<select class="city-choose" ></select>
-<select class="count-choose"></select>
+
+
+
+
 <div class="your-name">
 	<span id="your-city">城市:</span>
 	<span class="province" id="pro">省级</span>
-	<span class="province-icon"></span>
+	<div class="province-icon"><select class="pro-choose"></select></div>
 	<span class="province" id="city">市级</span>
-	<span class="province-icon"></span>
+	<div class="province-icon"><select class="city-choose" ></select></div>
 	<span class="province" id="county">区级</span>
-	<span class="province-icon"></span>
+	<div class="province-icon"><select class="count-choose"></select></div>
 </div>
 <div class="your-name">
 	<input type="text" placeholder="小区、街道、门牌等详细信息"></input>
@@ -124,6 +125,10 @@ function display(){
 	$("#city").html($(".city-choose").val());
 	$("#county").html($(".count-choose").val());
 }
+})
+$(".confirm").on("click",function(){
+	$(".radius-button").click();
+	$(".pro-choose").focus();
 })
 
 </script>
