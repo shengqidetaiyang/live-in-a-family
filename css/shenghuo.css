@@ -1,33 +1,32 @@
 .guding{
-	position: fixed;
-	top: 44px;
-	z-index: 10;
 	overflow: hidden;
 	max-width: 750px;
 }
 .header{
 	z-index: 5;
 }
-.body{
-	padding-top:53%;
-}
 .content_dichan{
 	width: 100%;
 	position: relative;
 }
 .left_dichan {
-	position: absolute;
-	left: 0;
+	display: inline-block;
 	width:28%;
 	height: 100%;
 	background-color:rgb(237,239,240);
+	float: left;
+	overflow-y:scroll;
+	height: 600px;
+
 }
 .right_dichan{
+	float: left;
 	width: 72%;
-	margin-left: 28%;
-	float: right;
+	display: inline-block;
 	padding-left:3%;
 	box-sizing: border-box;
+	overflow-y:scroll;
+	height: 600px;
 
 }
 .fenlei{

@@ -1,10 +1,9 @@
 body{
-	padding-bottom: 360px;
 	position: relative;
+	padding-bottom: 60px;
 }
 html,body{
 	width: 100%;
-	height: 100%;
 }
 .shouji{
 	width: 100%;
