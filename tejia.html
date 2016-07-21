@@ -114,6 +114,7 @@ $(function(){
 	$(".buy-soon").on("click",function(){
 		$(".chongzhi").show();
 	    $(".mengban").show();
+	    document.addEventListener("touchmove",eventDefault,false)
 	    	
 	    
 	})
@@ -132,9 +133,13 @@ $(function(){
 	 			$(".chongzhi").hide();
 			    $(".mengban").hide();
 			    $("#fenxiang").hide();  
+			    document.removeEventListener("touchmove",eventDefault,false)
 		
 	   }
 })
+	function eventDefault(e){
+		e.preventDefault();
+	}
 
 
 
