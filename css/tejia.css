@@ -2,9 +2,6 @@ body{
 	position: relative;
 	padding-bottom: 60px;
 }
-html,body{
-	width: 100%;
-}
 .shouji{
 	width: 100%;
 }
@@ -200,21 +197,8 @@ footer{
 	max-width: 750px;
 	box-sizing: border-box;
 }
-footer .img{
-	width: 28%;
-}
-footer .img1{
-	margin-top: 14px;
-	width: 28px;
-}
-footer .img2{
-	margin-left: 23%;
-}
-footer .img3{
-	margin-left: 6%;
-}
+
 footer .img4{
-	display: inline-block;
 	border-radius: 7px;
 	position: absolute;
 	width: 14px;
